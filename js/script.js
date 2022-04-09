@@ -41,23 +41,25 @@
 <!--    Modal-->
     $(document).ready(function (){
     $('.header-right__toggle').on('click', function () {
-        $('.toggle-modal').toggleClass('active')
+        $('.toggle-modal').toggleClass('active');
+        $('body').toggleClass('hidden');
     })
     })
     $(document).ready(function (){
         $('.exit__a').on('click', function () {
-            $('.toggle-modal').removeClass('active')
+            $('.toggle-modal').removeClass('active');
+            $('body').removeClass('hidden');
         })
     })
 // <!--    Modal-->
 $(document).ready(function (){
     $('.free').on('click', function () {
-        $('.modal-form-services').toggleClass('active')
+        $('.modal-form-services').toggleClass('active');
     })
 })
 $(document).ready(function (){
     $('.contact-form__exit').on('click', function () {
-        $('.modal-form-services').removeClass('active')
+        $('.modal-form-services').removeClass('active');
     })
 })
 
