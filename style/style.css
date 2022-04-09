@@ -3446,3 +3446,7 @@ footer .footer__right a:hover {
 .slider__button > * {
   color: #B3B3BA;
 }
+
+.hidden {
+  overflow: hidden;
+}
