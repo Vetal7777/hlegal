@@ -55,11 +55,13 @@
 $(document).ready(function (){
     $('.free').on('click', function () {
         $('.modal-form-services').toggleClass('active');
+        $('body').toggleClass('hidden');
     })
 })
 $(document).ready(function (){
     $('.contact-form__exit').on('click', function () {
         $('.modal-form-services').removeClass('active');
+        $('body').removeClass('hidden');
     })
 })
 
