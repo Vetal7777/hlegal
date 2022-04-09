@@ -2486,6 +2486,12 @@ footer .footer__right a:hover {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+@media (max-width: 430px) {
+  .grid .grid__row {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
 .grid .grid__row:hover .grid__info h3 {
   color: #F0145A;
 }
