@@ -2923,15 +2923,16 @@ footer .footer__right a:hover {
   width: 650px;
   height: 612px;
 }
-@media (max-height: 530px) {
-  .modal-form-services .contact-form {
-    height: 80vh;
-  }
-}
 @media (max-width: 768px) {
   .modal-form-services .contact-form {
     width: 375px;
     height: 640px;
+  }
+}
+@media (max-height: 530px) {
+  .modal-form-services .contact-form {
+    width: 500px;
+    height: 80vh;
   }
 }
 .modal-form-services .contact-form .contact-form__exit {
