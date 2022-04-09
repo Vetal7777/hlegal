@@ -2483,7 +2483,7 @@ footer .footer__right a:hover {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.grid .grid__row:hover h3 {
+.grid .grid__row:hover .grid__info h3 {
   color: #F0145A;
 }
 .grid .grid__row .grid__img {
