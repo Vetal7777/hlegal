@@ -1616,6 +1616,12 @@ body {
         flex-basis: 100%;
   }
 }
+@media (max-height: 530px) {
+  .contact-form {
+    height: 80vh;
+    overflow: scroll;
+  }
+}
 .contact-form__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2917,6 +2923,11 @@ footer .footer__right a:hover {
   width: 650px;
   height: 612px;
 }
+@media (max-height: 530px) {
+  .modal-form-services .contact-form {
+    height: 80vh;
+  }
+}
 @media (max-width: 768px) {
   .modal-form-services .contact-form {
     width: 375px;
@@ -2984,6 +2995,11 @@ footer .footer__right a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+}
+@media (max-height: 530px) {
+  .back {
+    left: 20vw;
+  }
 }
 .back__logo {
   display: -webkit-box;
